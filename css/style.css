@@ -1,0 +1,25 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background-color: cornflowerblue;
+}
+.container{
+	background-color: white;
+	width: 500px;
+	margin: 0 auto;
+}
+.list{
+	display: flex;
+	justify-content: space-around;
+}
+.list-item{
+    list-style-type: none;
+}
+.link:hover{
+	color: red;
+}
+.link{
+	text-decoration: none;
+}
