@@ -4,11 +4,17 @@
 }
 .main{
 	background-color: cornflowerblue;
+	padding-top: 100px;
+	height: 100vh;
 }
 .container{
 	background-color: white;
-	width: 500px;
+	width: 1000px;
 	margin: 0 auto;
+}
+.header{
+	border-bottom: 1px solid black;
+	padding: 10px 0;
 }
 .list{
 	display: flex;
@@ -17,9 +23,18 @@
 .list-item{
     list-style-type: none;
 }
-.link:hover{
-	color: red;
-}
 .link{
 	text-decoration: none;
+}
+.link:hover {
+	color: pink;
+	border-bottom: 2px solid pink;
+}
+.news-header{
+	text-align: center;
+	margin: 5px 0;
+}
+
+section{
+	margin: 0 20px;
 }
